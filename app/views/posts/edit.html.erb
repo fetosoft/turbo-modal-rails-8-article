@@ -1,0 +1,4 @@
+<!-- app/views/posts/edit.html.erb -->
+<%= render TurboModalComponent.new(title: "Edit Post") do %>
+  <%= render "form", post: @post %>
+<% end %>

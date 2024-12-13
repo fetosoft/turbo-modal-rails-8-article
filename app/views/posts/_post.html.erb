@@ -1,0 +1,11 @@
+<div id="<%= dom_id post %>">
+  <div class="border border-gray-300 rounded-lg p-4 bg-white shadow-md">
+    <p>
+      <strong>Title:</strong>
+      <%= post.title %>
+    </p>
+    <p class="mt-2">
+      <%= link_to "Show this post", post, class: "text-blue-500 hover:underline" %>
+    </p>
+  </div>
+</div>
